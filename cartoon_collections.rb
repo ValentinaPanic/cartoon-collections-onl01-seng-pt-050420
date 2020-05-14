@@ -4,8 +4,7 @@ def roll_call_dwarves(dwarves) # code an argument here
    numbered_list << "#{index}. #{name}"
  end
  puts numbered_list
-
-  # Your code here
+# Your code here
 end
 
 def summon_captain_planet# code an argument here
