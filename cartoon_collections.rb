@@ -3,11 +3,11 @@ def roll_call_dwarves(dwarves) # code an argument here
  dwarves.map.with_index(1) do |name,index|
    numbered_list << "#{index}. #{name}"
  end
- puts numbered_list(array)
+ puts numbered_list
 # Your code here
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(array)# code an argument here
   # Your code here
 end
 
