@@ -21,8 +21,8 @@ def long_planeteer_calls(calls_long)# code an argument here
 end
 end
 
-def find_the_cheese(cheddar_cheese)# code an argument here
-   cheddar_cheese.detect {|items| items == cheddar_cheese}
+def find_the_cheese(food_array)# code an argument here
+   food_array.detect {|items| items == cheddar_cheese}
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
