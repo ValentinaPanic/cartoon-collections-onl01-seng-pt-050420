@@ -1,5 +1,6 @@
 def roll_call_dwarves(dwarves) # code an argument here
-
+ numbered_list = []
+ 
   # Your code here
 end
 
