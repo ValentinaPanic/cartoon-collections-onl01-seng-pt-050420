@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarves) # code an argument here
  dwarves.map.with_index(1) do |name,index|
    numbered_list << "#{index}. #{name}"
  end
- puts numbered_list
+ puts numbered_list(array)
 # Your code here
 end
 
