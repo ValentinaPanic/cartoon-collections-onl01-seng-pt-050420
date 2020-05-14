@@ -1,6 +1,7 @@
 def roll_call_dwarves(dwarves) # code an argument here
  numbered_list = ""
  dwarves.map.with_index(1) do {|name,index|}
+   numbered_list << "#{index}. #{name}"
 
   # Your code here
 end
