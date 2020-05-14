@@ -22,8 +22,8 @@ end
 end
 
 def find_the_cheese(food_array)# code an argument here
-   food_array.detect {|item| cheese_types.include?(item)}
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+     food_array.detect {|item| cheese_types.include?(item)}
 
 end
